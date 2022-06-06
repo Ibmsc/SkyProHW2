@@ -10,7 +10,7 @@ public class Main {
         Long l = 922L;
         float f = 77.77F;
         double d = 16.16;
-        boolean booIsAdult = b > 126; // true или false;
+        //boolean booIsAdult = b > 126; // true или false;
         char simbol = 33;
 
 
