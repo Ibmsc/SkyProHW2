@@ -26,12 +26,23 @@ public class Main {
 
         // Задача 3
 
-        int bananas = 80 * 5;
-        int milk = 105 * 2;
-        int icecream = 100 * 2;
-        int eggs = 70 * 4;
-        int mixBlander = bananas + milk + icecream + eggs;
-        float mixBlanderKg = mixBlander / 1000f;
+        int banana = 5;
+        int bananaWeigth = 80;
+
+        int milk = 200/100;
+        int milkWeigth = 105 ;
+
+        int icecream = 2;
+        int icecreamWeight = 100;
+
+        int egg = 4;
+        int eggWeight = 70;
+
+        int mixBlander = (banana * bananaWeigth) + (milk * milkWeigth) + (icecream * icecreamWeight) + (egg * eggWeight);
+
+        int gramsinKgs = 1000;
+
+        double mixBlanderKg = mixBlander / (gramsinKgs*1.0);
         System.out.println("Всего вес спорт-завтрака " + mixBlander + " граммов " + " или " + mixBlanderKg + " Кг");
 
 
